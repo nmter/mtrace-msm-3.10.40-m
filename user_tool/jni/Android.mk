@@ -1,0 +1,10 @@
+LOCAL_PATH:=$(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES:=mytrace.c
+LOCAL_MODULE:=mytrace
+
+LOCAL_FORCE_STATIC_EXECUTABLE:=true
+LOCAL_CFLAGS += -pie -fPIE
+LOCAL_LDFLAGS += -pie -fPIE
+include $(BUILD_EXECUTABLE)
