@@ -1,5 +1,0 @@
-
-At the Top_Level_Dir Run NDK-build tool. for example,
- $~/buildingandroid/NDK-build-tool/android-ndk-r10d/ndk-build
-
-the binary file is in ./libs/armeabi/ 
